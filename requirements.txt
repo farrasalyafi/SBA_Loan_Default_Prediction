@@ -1,3 +1,4 @@
+streamlit ==0.59.0
 imblearn==0.0
 ipykernel==5.1.4
 ipython==7.12.0
