@@ -49,7 +49,7 @@ There have been many success stories of start-ups receiving SBA loan guarantees 
 
 This project is end to end data science projcet (kinda), from Data Preparation, Modeling, Evaluating, Tunning until Deployment. If you want to see more detail about this project, click this button below:"""
 
-Link = 'https://github.com/farrasalyafi/sba_loaan_default_prediction'
+Link = 'https://github.com/farrasalyafi/sba_loan_default_prediction'
 
 Linkedin = 'https://www.linkedin.com/in/muhammad-farras/'
 
