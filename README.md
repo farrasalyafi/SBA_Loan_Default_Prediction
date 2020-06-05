@@ -8,6 +8,6 @@ There have been many success stories of start-ups receiving SBA loan guarantees 
 
 This project is end to end data science projcet (kinda), from Data Preparation, Modeling, Evaluating, Tunning until Deployment. If you want to see simple app about this project, click this button below:
 
-App Link= 'https://sba-farras-app.heroku.com'
+App Link= https://sba-farras-app.herokuapp.com/
 
-Linkedin = 'https://www.linkedin.com/in/muhammad-farras/'
+Linkedin = https://www.linkedin.com/in/muhammad-farras/
