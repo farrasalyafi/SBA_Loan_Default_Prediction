@@ -118,11 +118,11 @@ def main():
         st.header('About This Project')
         st.image(img, width=700)
         st.write(Context)
-        if st.button('See More Detail'):
-            webbrowser.open_new_tab(Link)
-        st.subheader("Let's Connect!")
-        if st.button('My Linkedin'):
-            webbrowser.open_new_tab(Linkedin)
+        #if st.button('See More Detail'):
+            #webbrowser.open_new_tab(Link)
+        #st.subheader("Let's Connect!")
+        #if st.button('My Linkedin'):
+           # webbrowser.open_new_tab(Linkedin)
     
     
     
