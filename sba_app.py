@@ -119,20 +119,11 @@ def main():
         st.header('About This Project')
         st.image(img, width=700)
         st.write(Context)
+        st.write(Link)
+        st.write("Let's Connect!")
+        st.write('My Linkedin'):
+        st.write(Linkedin)
         
-        if st.button('See More Detail'):
-            webbrowser.open_new_tab(Link + 'doc/'))
-        st.subheader("Let's Connect!")
-        if st.button('My Linkedin'):
-            webbrowser.open_new_tab(Linkedin + 'doc/'))
-        
-        if st.button('Go to Streamlit'):
-            js = "window.open('https://www.streamlit.io/')"  # New tab or window
-            js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-            html = '<img src onerror="{}">'.format(js)
-            div = Div(text=html)
-            st.bokeh_chart(div)
-    
     
     
     
