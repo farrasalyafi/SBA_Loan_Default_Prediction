@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 import joblib
-import webbrowser
-from bokeh.models.widgets import Div
 
 #################################################################
 @st.cache
