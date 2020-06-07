@@ -119,11 +119,9 @@ def main():
         st.write(Context)
         st.write(Link)
         st.write("Let's Connect!")
-        st.write('My Linkedin'):
+        st.write('My Linkedin')
         st.write(Linkedin)
-        
-    
-    
+ 
     
 if __name__ == '__main__':
     main()
