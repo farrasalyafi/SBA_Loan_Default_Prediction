@@ -9,6 +9,7 @@ import seaborn as sns
 import pickle
 import joblib
 import webbrowser
+from bokeh.models.widgets import Div
 
 #################################################################
 @st.cache
@@ -124,6 +125,13 @@ def main():
         st.subheader("Let's Connect!")
         if st.button('My Linkedin'):
             webbrowser.open_new_tab(Linkedin + 'doc/'))
+        
+        if st.button('Go to Streamlit'):
+            js = "window.open('https://www.streamlit.io/')"  # New tab or window
+            js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
     
     
     
