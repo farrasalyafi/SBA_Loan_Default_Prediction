@@ -71,7 +71,7 @@ def main():
     st.write('By: M. Farras Al-Yafi')
     
     #Menu
-    menu = ['About','Prediction']
+    menu = ['Prediction', 'About']
     choice = st.sidebar.selectbox('Select Activities', menu)
     
     if choice == 'Prediction':
@@ -119,7 +119,6 @@ def main():
         st.write(Context)
         st.write(Link)
         st.write("Let's Connect!")
-        st.write('My Linkedin')
         st.write(Linkedin)
 
     
